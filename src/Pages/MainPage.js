@@ -42,7 +42,7 @@ width: 'auto',
 flexDirection: 'column',
 justifyContent: 'center',
 alignItems: 'center'}}><h1 style={{fontWeight: 'bold'}}> Software Development And<br/>
-Cunsulting services</h1>
+Consulting services</h1>
 <p style={{width:"300px"}}><span className='brandlogo'>{props.Brand}</span> Help to Grow Your Bussines With Web development , Conulting And Software Development Services</p>
 <div> <button className='loginbtn'  >Primary</button>{' '}{' '}
   <button className='loginbtn' >Secondary</button></div>
