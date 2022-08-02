@@ -1,0 +1,319 @@
+
+
+.Navbar{
+background-color: antiquewhite;
+width: 100%;
+height: 80px;
+}
+.brandlogo{
+  font-size: 18px;
+  font-family: 'Sacramento';
+}
+.loginbtn{
+  padding: 5px;
+  border: 2px solid #3435ce;
+  color:#3435ce;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 5px;
+}
+.loginbtn:hover{
+  color:white;
+  background-color: #3435ce;
+}
+
+.default{
+    color:rgb(253, 253, 253);
+    padding: 5px 8px;
+    background:black;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+
+}
+
+
+
+
+
+.ApplicationContainer{
+ 
+  background-color: #ffffff ;
+
+}
+
+ .Application_container>div{
+
+    
+  text-align: left;
+}
+.ApplicationContainer>div> table >tbody> tr>td>ul{
+     text-align: left;
+    
+     font-size: 20px;
+     color: rgb(246, 242, 248);
+     padding: 20px;
+     /* margin-top: 50px; */
+    list-style: none;
+} 
+
+.Topics > img{
+  width: 80px;
+  height: 80px;
+}
+.Topics>h5,h6{
+  font-weight: bold;
+}
+.Topics >h6{
+  font-size: 18px;
+  font-weight: bold;
+  color:#214280;
+}
+
+
+
+
+
+
+/* tecnology style */
+.TecnoCon {
+    row-gap: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    align-items: center;
+    justify-content: center;
+}
+  
+.TecnoCon >.TechRow{
+  display: flex;
+  
+}
+.TechnologyPlates {
+   
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+  
+    border-radius: 5px;
+    height: 140px;
+    box-shadow: 0px 0px 6px 2px #0e0f68;
+}
+.TechnologyPlates:hover{
+     transform: scale(1.2);
+    z-index: 100;
+} 
+
+
+/* project   */
+
+
+.ProjectContainer{
+ 
+  padding: 30px;
+  display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:row;
+column-gap: 20px;
+}
+.ProjectContainer > .ProjectDiv:nth-child(1){
+    border-color: #0d4cff;
+    color: #0d4cff;
+}
+.ProjectContainer > .ProjectDiv:nth-child(1):hover{
+  background-color:  #0d4cff;
+  color: white;
+}
+
+
+.ProjectContainer > .ProjectDiv:nth-child(2){
+      border-color: rgb(34 159 63);
+    color: #229f3f;
+}
+.ProjectContainer > .ProjectDiv:nth-child(2):hover{
+  background-color:  #229f3f;
+    color: white;
+}
+
+.ProjectContainer > .ProjectDiv:nth-child(3){
+        border-color: rgb(253 0 47);
+    color: #fd002f;
+}
+.ProjectContainer > .ProjectDiv:nth-child(3):hover{
+  background-color: #fd002f;
+  color: white;
+}
+
+
+
+.ProjectDiv{
+ cursor: pointer;
+width: max-content;
+height: 120px;
+border-radius: 20px;
+border-width: 10px;
+border-style: solid;
+/* border:1px solid grey; */
+padding:20px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+}
+.ProjectDiv:hover span{
+  border-bottom: 2px;
+}
+
+
+
+.HappyCientCon{
+   cursor: pointer;
+    border: 10px solid rgb(52 53 206);
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: max-content;
+    height: max-content;
+}
+.HappyCientCon >div {
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  width: max-content;
+  height:max-content;
+}
+.HappyCientCon:hover div >span{
+  border-bottom: 2px solid #252591;
+}
+
+
+
+.ProjectDiv >span{
+  letter-spacing: 2px;
+  font-size: 18px;
+  font-weight: bold;
+  
+ 
+}
+
+
+/* Contact   */
+
+
+
+.Contact_con{
+    
+    flex-direction: row;
+    column-gap: 80px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    
+}
+.Contact_con >div{
+  width: 50%;
+}
+
+.Contact_con > .Left >img{
+width: 100%;
+height: 100%;
+}
+.Contact_con > .Right{
+   
+   
+    row-gap: 50px;
+     display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+ 
+ 
+
+.Contact_con > .Right > form > .mb-3 {
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+/* footer */
+#footCon >div >ul >li{
+  text-align: left;
+  font-size: 14px;
+  list-style: none;
+}
+#footCon{
+  
+  padding:20px 0px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  column-gap: 8%;
+}
+
+
+#footCon >div >ul{
+  padding: 0px;
+}
+#footCon >div >ul >li>a{
+text-decoration: none;
+color: #b4acac;
+}
+
+.FollowUs{
+  margin-left: 8%;
+
+  flex-direction: column;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  
+}
+/* .SocialLinkCon >div{
+
+}
+ */
+.SocialLinkCon >a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#ffffff;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+div.SocialLinkCon >  a:hover {
+  color:rgb(32, 33, 44);
+  background-color: rgb(255, 255, 255);
+}
+
+
+.reserve{
+  padding-bottom: 20px;
+   font-size: 14px;
+    background-color: #060744;
+  color: #b4acac;
+}
+
