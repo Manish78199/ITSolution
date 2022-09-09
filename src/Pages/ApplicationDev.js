@@ -4,7 +4,7 @@ import Figure from 'react-bootstrap/Figure'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import mobile from "./Assets/img/AppDev2.jpg";
+import mobile from "./Assets/img/AppDev3.jpg";
 import eff from "./Assets/img/efficiency.png";
 import high from "./Assets/img/high-speed.png"
 import stab from "./Assets/img/stability.webp"
@@ -52,12 +52,12 @@ return(
               <div className="Topics">
                <img src={high} alt="High Speed"/>
                <h5>Speed</h5>
-              <h6 style={{textAlign:"right"}}>High Spped Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cumque nobis, mollitia similique omnis vel.</h6>
+              <h6 style={{textAlign:"center"}}>High Spped Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cumque nobis, mollitia similique omnis vel.</h6>
                 </div>
               <div className="Topics">
                 <img src={apper} alt="Attractive Appearance"/>
                 <h5>Apearance</h5>
-                <h6 style={{textAlign:"right"}}>Best Appearance To Attract User Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi consequuntur omnis nulla? Id, facere aliquid.</h6></div>
+                <h6 style={{textAlign:"center"}}>Best Appearance To Attract User Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi consequuntur omnis nulla? Id, facere aliquid.</h6></div>
         </Col>
         <Col sm={6} ><img src={mobile}  style={{height:"100%",width:"100%"}} alt="Software Development"/></Col>
         <Col style={{}}>
@@ -65,12 +65,12 @@ return(
               <div className="Topics">
                 <img src={eff} alt="Efficiency"/>
                 <h5>Efficiency </h5>
-                <h6 style={{textAlign:"left"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quaerat eaque alias architecto dolores nesciunt quis nulla! Expedita, voluptatibus quis!</h6>
+                <h6 style={{textAlign:"center"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quaerat eaque alias architecto dolores nesciunt quis nulla! Expedita, voluptatibus quis!</h6>
                 </div>
               <div className="Topics" style={{}}>
                 <img src={stab} alt="Stablity"/>
                 <h5>Stability</h5>
-                <h6 style={{textAlign:"left"}}>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.</h6>
+                <h6 style={{textAlign:"center"}}>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.</h6>
                 </div>
        
         </Col>

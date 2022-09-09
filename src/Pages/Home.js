@@ -7,6 +7,7 @@ import Tecnology from "./Technology";
 import Projects from "./ShowProject";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import Testimoly from "./Testimoly";
 
 import "./Assets/Style.css"
 
@@ -20,6 +21,7 @@ export default function Home(props) {
             <ApplicationSection/>
             <Tecnology/>
             <Projects/>
+            <Testimoly/>
             <Contact/>
             <Footer Brand={props.Brand}/>
 
