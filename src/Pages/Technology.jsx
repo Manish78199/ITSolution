@@ -6,8 +6,8 @@ import Card from 'react-bootstrap/Card';
 import Figure from 'react-bootstrap/Figure';
 
 import reactimage from "./Assets/img/React.png";
-import vueimage from "./Assets/img/Vue.png";
-import angularimage from "./Assets/img/Angular.png";
+import vueimage from "./Assets/img/Vue2.png";
+import angularimage from "./Assets/img/Angular.svg";
 import nodeimage from "./Assets/img/node.png";
 import mysqlimage from "./Assets/img/mysql.png"
 import expressimage from "./Assets/img/express.png";
@@ -39,8 +39,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program
               </Card.Text>
               {/* <Button variant="primary"><a href="https://www.mongodb.com">About</a></Button> */}
             </Card.Body>
@@ -52,8 +51,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -68,8 +66,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                React is a free and open-source front-end JavaScript library for building user interfaces based on UI components
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -81,8 +78,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on a JavaScript Engine and executes JavaScript code outside a web browser
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -102,8 +98,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+               MySQL is an open-source relational database management system. Its name is a combination of "My", the name of co-founder Michael Widenius's daughter My, and "SQL", the abbreviation for Structured Query Language
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -116,8 +111,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Vue.js is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications.
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -132,8 +126,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                AngularJS is a discontinued free and open-source JavaScript-based web framework for developing single-page applications.
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
@@ -147,8 +140,7 @@ export default function Technology() {
             <Card.Body>
 
               <Card.Text>
-                Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern. 
               </Card.Text>
               {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>

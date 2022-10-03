@@ -44,7 +44,7 @@ return(
         <div className="Topics" style={{display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column"}}>
                        <img src={opt} alt='Optimization'/>
                        <h5>optimization</h5>
-             <h6 style={{width:"400px"}}>Highly Optimize Application Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet tempora molestiae pariatur odit, dignissimos dicta.</h6>
+             <h6 style={{width:"400px"}}>Highly Optimize Application. We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of a  application's design</h6>
           </div>
       </Row>
       <Row  >
@@ -52,7 +52,7 @@ return(
               <div className="Topics">
                <img src={high} alt="High Speed"/>
                <h5>Speed</h5>
-              <h6 style={{textAlign:"center"}}>High Spped Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque cumque nobis, mollitia similique omnis vel.</h6>
+              <h6 style={{textAlign:"center"}}> We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of an  application's design</h6>
                 </div>
               <div className="Topics">
                 <img src={apper} alt="Attractive Appearance"/>

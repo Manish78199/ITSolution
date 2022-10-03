@@ -4,6 +4,11 @@
   height: 80px;
 }
 
+.me-auto > a{
+  color: #323138;
+}
+
+
 .brandlogo {
   font-size: 18px;
   font-family: 'Sacramento';
@@ -120,6 +125,14 @@ h6 {
   border-style: solid;
   width: 16rem;
 }
+ div.card-body > p{
+  font-weight: bold;
+ }
+ 
+ .card-header {
+    font-weight: bold;
+}
+
 
 
 
@@ -261,8 +274,7 @@ h6 {
   align-items: center;
   position: absolute;
   justify-content: center;
-  display: flex;
-  column-gap: 20px;
+
 
 }
 
@@ -444,7 +456,7 @@ div.SocialLinkCon>a:hover {
 .reserve {
   padding-bottom: 20px;
   font-size: 14px;
-  background-color: #060744;
+  background-color: #1a2e35;
   color: #b4acac;
 }
 

@@ -17,9 +17,9 @@ export default function Footer() {
   // };
 
   return (
-    <>
+    <div id="MainFoot">
       <div style={{
-        backgroundColor: "#060744",
+        backgroundColor: "#1a2e35",
         display: "flex",
         flexDirection: "row",
 
@@ -28,10 +28,10 @@ export default function Footer() {
         id="footCon">
         <div className='FollowUs' >
           <div>
-          <p style={{ textAlign: "left" }}><span style={{ fontFamily: "Sacramento", fontSize: "18px" }}>it Solution . Com</span> Help to Grow Your Bussines With Cunsulting ,Web development And Software Development Services</p>
+            <p style={{ textAlign: "left" }}><span style={{ fontFamily: "Sacramento", fontSize: "18px" }}>it Solution . Com</span> Help to Grow Your Bussines With Cunsulting ,Web development And Software Development Services</p>
 
           </div>
-         
+
           <div style={{ display: "flex", flexDirection: "row", columnGap: "10px" }} className="SocialLinkCon">
             <IconContext.Provider value={{ size: "20px", className: "Social_Link" }} >
               <a href="#" title='Facebook'><FiFacebook /></a>
@@ -50,37 +50,37 @@ export default function Footer() {
 
         </div>
 
-      <div className='FontLinkContainer'>
-        <div style={{ textAlign: "left" }}>
-          <span >Quik Link</span>
-          <br />
-          <ul>
-            <li> <Link to="/About">About Us</Link></li>
-            <li> <a href="http://">web development</a></li>
-            <li> <a href="http://">development</a></li>
-          </ul>
-        </div>
-        <div style={{ textAlign: "left" }}>
-          <span>Our services</span>
-          <br />
-          <ul>
-            <li> <a href="http://">home</a></li>
-            <li> <a href="http://">web development</a></li>
-            <li> <a href="http://">development</a></li>
-          </ul>
-        </div>
+        <div className='FontLinkContainer' style={{display:"flex",columnGap:'20px'}}>
+          <div style={{ textAlign: "left" }}>
+            <span >Quik Link</span>
+            <br />
+            <ul>
+              <li> <Link to="/About">About Us</Link></li>
+              <li> <a href="http://">web development</a></li>
+              <li> <a href="http://">development</a></li>
+            </ul>
+          </div>
+          <div style={{ textAlign: "left" }}>
+            <span>Our services</span>
+            <br />
+            <ul>
+              <li> <a href="http://">home</a></li>
+              <li> <a href="http://">web development</a></li>
+              <li> <a href="http://">development</a></li>
+            </ul>
+          </div>
 
-        <div style={{ textAlign: "left" }}>
-          <span>Contact Us</span>
-          <br />
-          <ul>
-            <li> <a href="http://">Call us</a></li>
-            <li> <a href="http://">Mail us</a></li>
-          </ul>
+          <div style={{ textAlign: "left" }}>
+            <span>Contact Us</span>
+            <br />
+            <ul>
+              <li> <a href="http://">Call us</a></li>
+              <li> <a href="http://">Mail us</a></li>
+            </ul>
+          </div>
+
+
         </div>
-
-
-      </div>
 
 
       </div>
@@ -88,6 +88,6 @@ export default function Footer() {
         &copy; <span style={{ fontSize: "18px" }} className="brandlogo">it Solution . Com </span>. 2022 All Right Reserve
       </div>
 
-    </>
+    </div>
   )
 }
