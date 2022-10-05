@@ -28,7 +28,8 @@ export default function Footer() {
         id="footCon">
         <div className='FollowUs' >
           <div>
-            <p style={{ textAlign: "left" }}><span style={{ fontFamily: "Sacramento", fontSize: "18px" }}>it Solution . Com</span> Help to Grow Your Bussines With Cunsulting ,Web development And Software Development Services</p>
+            <p style={{ textAlign:"left",fontFamily: "Sacramento", fontSize: "18px" }}>it Solution . Com</p>
+            <p style={{ textAlign: "left",fontWeight:"bold" }}> Help to Grow Your Bussines With Consulting ,Web development And Software Development Services</p>
 
           </div>
 

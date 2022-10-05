@@ -2,6 +2,7 @@ import Nav from "./Nav";
 import React from 'react'
 import MainPage from "./MainPage";
 import ApplicationSection from "./ApplicationDev";
+import Services from "./Services";
 import WebDev from "./WebDev";
 import Tecnology from "./Technology";
 import Projects from "./ShowProject";
@@ -19,6 +20,7 @@ export default function Home(props) {
          
             <MainPage Brand={props.Brand}/>
             <ApplicationSection/>
+            <Services/>
             <Tecnology/>
             <Projects/>
             <Testimoly/>

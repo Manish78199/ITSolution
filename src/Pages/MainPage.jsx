@@ -49,7 +49,7 @@ export default function MainPage() {
 
         <h1 style={{ fontWeight: 'bold' }}> Software Development And<br />
           Cunsulting services</h1>
-        <p style={{ width: "300px" }}><span className='brandlogo'>it Solution . Com</span> Help to Grow Your Bussines With Cunsulting ,Web development And Software Development Services</p>
+        <p style={{ width: "300px" }}><span className='brandlogo'>it Solution . Com</span> Help to Grow Your Bussines With Consulting ,Web development And Software Development Services</p>
         {/* <div> <button className='loginbtn'  >Primary</button>{' '}{' '}
   <button className='loginbtn' >Secondary</button>
   </div> */}
