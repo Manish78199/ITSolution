@@ -26,55 +26,98 @@ export default function Services() {
                     <button>It Consulting</button>
                 </div>
                 <div className="Services_desc">
-                    <div className='Services_desc_row' >
+                    <div className='Services_desc_row' style={{borderRight:"4px solid"}}>
 
                         <div className="Topics" >
-                            <img src={opt} alt='Optimization' />
-                            <h5>optimization</h5>
-                            <p style={{ textAlign: "center" }}>Highly Optimize Application. We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of a  application's design</p>
+
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={opt} alt='Optimization' />
+                                    <h5>optimization</h5>
+                                </div>
+                                <p>Highly Optimize Application. We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of a  application's design
+                                </p>
+                            </div>
+                            <div className="Topics_Num">1</div>
                         </div>
 
                         <div className="Topics">
-                            <img src={high} alt="High Speed" />
-                            <h5>Speed</h5>
-                            <p style={{ textAlign: "center" }}> We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of an  application's design</p>
+                            
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={high} alt="High Speed" />
+                                    <h5>Speed</h5>
+                                </div>
+                                <p> We want to deliver fast and efficient performance. As a result, speed has become one of the top metrics that people use to assess the quality of an  application's design
+                                </p>
+                            </div>
+                            <div className="Topics_Num">2</div>
                         </div>
 
 
                         <div className="Topics">
-                            <img src={apper} alt="Attractive Appearance" />
-                            <h5>Apearance</h5>
-                            <p style={{ textAlign: "center" }}>Best Appearance To Attract User Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi consequuntur omnis nulla? Id, facere aliquid.</p></div>
+                          
+
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={apper} alt="Attractive Appearance" />
+                                    <h5>Apearance</h5>
+                                </div>
+                                <p>Best Appearance To Attract User Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi consequuntur omnis nulla? Id, facere aliquid.
+                                </p>
+                            </div>
+                              <div className="Topics_Num">3</div>
+                        </div>
 
                     </div>
                     <div className="Services_desc_row" >
-
-
-
                         <div className="Topics">
-                            <img src={eff} alt="Efficiency" />
-                            <h5>Efficiency </h5>
-                            <p style={{ textAlign: "center" }}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quaerat eaque alias architecto dolores nesciunt quis nulla! Expedita, voluptatibus quis!</p>
+                            <div className="Topics_Num">4</div>
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={eff} alt="Efficiency" />
+                                    <h5>Efficiency </h5>
+                                </div>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, quaerat eaque alias architecto dolores nesciunt quis nulla! Expedita, voluptatibus quis!
+                                </p>
+                            </div>
                         </div>
+
+
 
 
                         <div className="Topics" >
-                            <img src={stab} alt="Stablity" />
-                            <h5>Stability</h5>
-                            <p style={{ textAlign: "center" }}>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.</p>
+                            <div className="Topics_Num">5</div>
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={stab} alt="Stablity" />
+                                    <h5>Stability</h5>
+                                </div>
+                                <p>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.
+                                </p>
+                            </div>
                         </div>
 
 
                         <div className="Topics">
-                            <img src={stab} alt="Stablity" />
-                            <h5>Stability2</h5>
-                            <p style={{ textAlign: "center" }}>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.</p>
+                            <div className="Topics_Num">6</div>
+                            <div className='Topic_desc'>
+                                <div>
+                                    <img src={stab} alt="Stablity" />
+                                    <h5>Stability2</h5>
+                                </div>
+                                <p>Stability for Long Use Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis alias deserunt explicabo, inventore nam placeat.
+                                </p>
+                            </div>
                         </div>
+
 
 
                     </div>
                 </div>
+
             </div>
-        </div>
+        </div >
+
     )
 }

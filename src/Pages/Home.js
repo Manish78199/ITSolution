@@ -3,6 +3,7 @@ import React from 'react'
 import MainPage from "./MainPage";
 import ApplicationSection from "./ApplicationDev";
 import Services from "./Services";
+
 import WebDev from "./WebDev";
 import Tecnology from "./Technology";
 import Projects from "./ShowProject";
@@ -19,7 +20,7 @@ export default function Home(props) {
             <Nav Brand={props.Brand}/>
          
             <MainPage Brand={props.Brand}/>
-            <ApplicationSection/>
+            <ApplicationSection/> 
             <Services/>
             <Tecnology/>
             <Projects/>

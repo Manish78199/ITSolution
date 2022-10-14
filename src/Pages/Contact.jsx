@@ -40,8 +40,11 @@ export default function Contact2() {
                         fontWeight: 'bold',
                         fontFamily: '"Roboto"'
                     }}>Get In touch</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis deserunt quo perferendis recusandae qui? Libero repudiandae dignissimos quo eveniet sit!
+                    <p style={{fontWeight:"bold"}}>
+                        Call Us 24/7 for any query 
+                        contact us feel free 
+                        we provide best services as posibles
+
                     </p>
 
                 </div>

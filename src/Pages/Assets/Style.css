@@ -88,7 +88,7 @@ h6 {
 
 
 /* Services */
-.Services_con {
+/* .Services_con {
     padding: 50px 10px;
     display: flex;
     flex-direction: column;
@@ -136,15 +136,113 @@ h6 {
 }
 
 .Services_desc_row>div {
+    box-shadow: 0 0 4px grey;
     padding: 10px;
     border-radius: 4px;
-    border: 1px solid #052adf;
     height: max-content;
+    font-weight: bold;
     display: flex;
     width: 300px;
     flex-direction: column;
     align-items: center;
+} */
+
+
+/* servics 2 */
+
+.Services_con {
+    padding: 50px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    justify-content: center;
 }
+
+.Services_nav_btn {
+    height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    width: 100%;
+    column-gap: 10px;
+}
+.Services_nav_btn > button{
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+  font-family: 'Questrial';
+    background: none;
+    font-size: large;
+    border: none;
+ 
+}
+.Services_nav_btn > button.active_Services_btn{
+  border-bottom: 4px solid #01031f
+
+}
+.Services_nav_btn > button:hover{
+  background-color: #0e1252;
+  color: white;
+  border: none;
+}
+
+.Services_desc {
+    display: flex;
+    row-gap: 50px;
+    flex-direction: row;
+}
+.Services_desc_row {
+    row-gap: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+.Services_desc_row > div {
+    padding: 10px;
+    border-radius: 4px;
+    height: max-content;
+    font-weight: bold;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+}
+.Topic_desc {
+    padding: 15px;
+    border-radius: 4px;
+    width: 550px;
+    display: flex;
+    column-gap: 20px;
+    border: 2px solid;
+}
+.Topics_Num {
+    width: 50px;
+    height: 50px;
+    background-color: #084298;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    font-family: 'Questrial';
+    border-top-left-radius: 10px;
+  
+    border-bottom-right-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.Services_desc > div:nth-child(1) > .Topics > div.Topic_desc > p{
+  text-align: right;
+}
+div.Topic_desc > div > img{
+  width: 60px;
+  height: 60px;
+}
+
 
 
 /* tecnology style */
